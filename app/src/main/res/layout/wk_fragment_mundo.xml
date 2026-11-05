@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mundo_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_forest_photo">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#36000000" />
+
+    <ImageView
+        android:id="@+id/wk_bg_layer_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_forest_photo" />
+
+    <ImageView
+        android:id="@+id/wk_bg_layer_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tree_decoration"
+        android:alpha="0.18" />
+
+    <LinearLayout
+        android:id="@+id/wk_top_panel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:background="#CC1F3B2C"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/wk_tv_coins"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🪙 100"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wk_tv_crystals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="💎 0"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wk_tv_prod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+20/min"
+            android:textColor="#FFE082"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/wk_event_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/wk_habitat_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#CC1B2D1B"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/wk_btn_bosque"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bosque"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#3CB371"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/wk_btn_lago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lago"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1E88E5"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/wk_btn_campo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Campo"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7CB342" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/wk_fab_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="92dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_collect"
+        android:backgroundTint="#F9C74F" />
+
+</FrameLayout>

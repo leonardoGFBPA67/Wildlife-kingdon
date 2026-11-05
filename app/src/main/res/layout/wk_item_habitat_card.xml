@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#F9FBF5"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#F9FBF5">
+
+        <TextView
+            android:id="@+id/wk_tv_habitat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lago — Nível 3"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wk_tv_habitat_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/habitat_production_format"
+            android:textColor="#355C45" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/wk_tv_cost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/habitat_cost_format"
+                android:textColor="#D97706"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/wk_btn_upgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_upgrade"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

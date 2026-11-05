@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Wildlifekingdon" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/forest_green</item>
+        <item name="colorPrimaryVariant">@color/forest_deep</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:colorBackground">@color/surface_cream</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/forest_deep</item>
+        <item name="android:windowBackground">@color/surface_cream</item>
+    </style>
+
+    <style name="Theme.Wildlifekingdon" parent="Base.Theme.Wildlifekingdon" />
+</resources>

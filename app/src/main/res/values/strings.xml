@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Wildlife Kingdon</string>
+
+    <!-- UI labels -->
+    <string name="menu_world">Mundo</string>
+    <string name="menu_animals">Animais</string>
+    <string name="menu_missions">Missões</string>
+    <string name="menu_upgrades">Melhorias</string>
+    <string name="menu_settings">Config</string>
+
+    <string name="offline_title">Enquanto você estava fora...</string>
+    <string name="offline_collect">COLETAR</string>
+    <string name="offline_time">Tempo ausente: %1$s</string>
+    <string name="offline_coins">Produção acumulada: +%1$d moedas</string>
+
+    <string name="btn_upgrade">MELHORAR</string>
+    <string name="btn_collect">COLETAR</string>
+
+    <string name="config_sound">Música e efeitos</string>
+    <string name="config_reset">Resetar progresso (limpar DB)</string>
+
+    <string name="msg_insufficient_coins">Moedas insuficientes</string>
+    <string name="msg_collected">Produção coletada</string>
+
+    <string name="missions_title">Missões</string>
+    <string name="missions_placeholder">Missões (em desenvolvimento)</string>
+
+    <string name="habitat_production_format">Produção: %1$d / %2$ds</string>
+    <string name="habitat_cost_format">Custo: %1$d</string>
+
+</resources>

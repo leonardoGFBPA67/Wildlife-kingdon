@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/wk_img_animal"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/animal_placeholder"/>
+
+        <TextView
+            android:id="@+id/wk_tv_animal_name"
+            android:layout_toRightOf="@id/wk_img_animal"
+            android:layout_marginStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coelho"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/wk_tv_animal_info"
+            android:layout_below="@id/wk_tv_animal_name"
+            android:layout_toRightOf="@id/wk_img_animal"
+            android:layout_marginStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comum • Nível 1"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
